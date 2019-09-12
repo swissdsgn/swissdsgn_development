@@ -1,0 +1,63 @@
+// Blogger Sans Light
+@font-face {
+  font-family: "BloggerSans";
+  src: url("../fonts/bloggersans-light.woff2") format("woff2"),
+    url("../fonts/bloggersans-light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: fallback;
+}
+
+// Blogger Sans Regular
+@font-face {
+  font-family: "BloggerSans";
+  src: url("../fonts/bloggersans.woff2") format("woff2"),
+    url("../fonts/bloggersans.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: fallback;
+}
+
+// Blogger Sans Medium
+@font-face {
+  font-family: "BloggerSans";
+  src: url("../fonts/bloggersans-medium.woff2") format("woff2"),
+    url("../fonts/bloggersans-medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: fallback;
+}
+
+// Blogger Sans Bold
+@font-face {
+  font-family: "BloggerSans";
+  src: url("../fonts/bloggersans-bold.woff2") format("woff2"),
+    url("../fonts/bloggersans-bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: fallback;
+}
+
+body {
+  letter-spacing: normal;
+  text-rendering: optimizeLegibility;
+  font-family: $font-family-regular;
+  font-style: normal;
+  // color: $s-text-black;
+  margin-top: 0;
+}
+
+ul,
+li {
+  margin: 0;
+}
+
+label,
+input {
+  // font-size: $font-size-18px;
+}
+
+h1 {
+  // font-size: $font-size-h1;
+  line-height: 1.44;
+}
